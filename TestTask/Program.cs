@@ -54,7 +54,7 @@ Console.WriteLine("\n=== Synchronization starting! ===\n");
 // Infinite synchronization loop
 while (true)
 {
-    //SynchronizerMethods.SyncFolders(source, replica, logFile);
+    SynchronizerHelpMethods.SyncFolders(source, replica, logFile);
     Thread.Sleep(interval * 1000);
 }
 
